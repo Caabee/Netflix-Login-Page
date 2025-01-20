@@ -1,4 +1,41 @@
 body{
-    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/e3e9c31f-aa15-4a8f-8059-04f01e6b8629/web/BR-pt-20250113-TRIFECTA-perspective_a4fbc30d-8c74-4bf7-bbb7-62efbbc54d94_small.jpg');
+    background-image:url('./img/Netflixbackground.jpg');
     background-size: 100%;
+    font-family: 'Kumbh Sans';
+    color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: black;
+    opacity: 80%;
+    width: 450px;
+    height: 706px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.logo {
+    display: flex;
+    margin-right: 1040px;
+    margin-top: 2px;
+}
+
+.logo img {
+    width: 149px;
+    height: auto;
 }
