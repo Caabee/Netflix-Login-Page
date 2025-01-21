@@ -21,13 +21,21 @@
             <img src="./img/Netflix-Logo.png" alt="Netflix-Logo">
         </div>
         <div class="card">
-            <h2>Entrar</h2>
+            <h2 class="entrar">Entrar</h2>
             <form method="get" action="index.html">
-                <input type="text" name="q" placeholder="Email ou número de celular">
+                <label class="custom-field one">
+                    <input type="text" required />
+                    <span class="placeholder">Email ou número de celular</span>
+                </label>
                 <br>
-                <input type="password" name="q" placeholder="Senha">
                 <br>
-                <input type="submit" value="Entrar">
+                <label class="custom-field one">
+                    <input type="password" required />
+                    <span class="placeholder">Senha</span>
+                </label>
+
+                <br>
+                <input class="entratbtn" type="submit" value="Entrar">
             </form>
             <h2>OU</h2>
             <form method="get" action="index.html">
