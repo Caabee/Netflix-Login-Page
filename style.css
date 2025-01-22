@@ -2,7 +2,7 @@ body {
     background-image: url('./img/Netflixbackground.jpg');
     background-size: 100%;
     font-family: 'Kumbh Sans';
-    color: white;
+    color: #fff;
 }
 
 .card {
@@ -31,7 +31,7 @@ body {
 .entrar {
     opacity: 1;
     font-size: 35px;
-    color: white;
+    color: #fff;
     display: flex;
     align-self: flex-start;
     margin-top: 50px;
@@ -51,7 +51,7 @@ body {
     -ms-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    color: white;
+    color: #fff;
     background-color: rgba(22, 22, 22, 0.4);
     padding: 12px;
     border-radius: 3px;
