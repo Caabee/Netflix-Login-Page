@@ -140,18 +140,18 @@ body {
     font-weight: 300;
     font-size: 14px;
     color: #aaa;
-    transform: translateY(-10px);
+    transform: translateY(-15px);
 }
 
 .codigo-acesso-container {
-    transform: translateY(-25px);
+    transform: translateY(-30px);
 }
 
 .codigo-acesso-container .codigo-acesso {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(128,128,128,0.4);
+    background-color: rgba(128, 128, 128, 0.4);
     color: #fff;
     border: none;
     outline: none;
@@ -167,7 +167,7 @@ body {
 }
 
 
-.entratbtn:hover{
+.entratbtn:hover {
     transform: scale(1.1);
     box-shadow: rgb(255, 0, 0) 0px 20px 30px -10px;
     transition: 0.5s ease;
@@ -176,4 +176,59 @@ body {
 .codigo-acesso:hover {
     transform: scale(1.1);
     box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
+
+.esqueceu-senha-container {
+    transform: translateY(-30px);
+}
+
+.esqueceu-senha {
+    transition: 0.3s ease;
+}
+
+.esqueceu-senha a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.esqueceu-senha:hover {
+    scale: 1.1;
+}
+
+.lembrar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-45px);
+}
+
+.lembrar {
+    transition: 0.3s ease;
+}
+
+.lembrar:hover {
+    scale: 1.1;
+}
+
+.checkbox {
+    margin-right: 5px;
+}
+
+.novo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-65px);
+}
+
+.novo {
+    transition: 0.3s ease;
+}
+
+.novo:hover {
+    scale: 1.1;
+}
+
+.novo a {
+    color: #fff;
 }
