@@ -1,5 +1,5 @@
 body {
-    background-image: url('./img/Netflixbackground.jpg');
+    background-image: url('../img/Netflixbackground.jpg');
     background-size: 100%;
     font-family: 'Kumbh Sans';
     color: #fff;
@@ -13,7 +13,7 @@ body {
     gap: 25px;
     background-color: rgba(0, 0, 0, 0.7);
     width: 420px;
-    height: 693px;
+    height: 703px;
     position: relative;
     border-radius: 5px;
 }
@@ -103,7 +103,7 @@ body {
 .custom-field.one input:valid+.placeholder,
 .custom-field.one input:focus+.placeholder {
     top: 4px;
-    background: rgba(22, 22, 22, 0.4);
+    background: rgba(20, 20, 20, 0.4);
 }
 
 .entratbtn {
@@ -143,7 +143,11 @@ body {
     transform: translateY(-10px);
 }
 
-.codigo-acesso {
+.codigo-acesso-container {
+    transform: translateY(-25px);
+}
+
+.codigo-acesso-container .codigo-acesso {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,6 +166,14 @@ body {
     transition: 0.3s ease;
 }
 
-.entratbtn:hover, .codigo-acesso:hover {
+
+.entratbtn:hover{
     transform: scale(1.1);
+    box-shadow: rgb(255, 0, 0) 0px 20px 30px -10px;
+    transition: 0.5s ease;
+}
+
+.codigo-acesso:hover {
+    transform: scale(1.1);
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
