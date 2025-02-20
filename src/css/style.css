@@ -140,11 +140,11 @@ body {
     font-weight: 300;
     font-size: 14px;
     color: #aaa;
-    transform: translateY(-15px);
+    transform: translateY(-25px);
 }
 
 .codigo-acesso-container {
-    transform: translateY(-30px);
+    transform: translateY(-50px);
 }
 
 .codigo-acesso-container .codigo-acesso {
@@ -179,7 +179,7 @@ body {
 }
 
 .esqueceu-senha-container {
-    transform: translateY(-30px);
+    transform: translateY(-75px);
 }
 
 .esqueceu-senha {
@@ -199,7 +199,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateY(-45px);
+    transform: translateX(-65px);
+}
+
+.lembrar-transform {
+    transform: translateY(-85px);
 }
 
 .lembrar {
@@ -218,7 +222,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateY(-65px);
+    transform: translateX(-40px);
+}
+
+.novo-transform {
+    transform: translateY(-105px);
+}
+
+.novo-transform p {
+    font-weight: 200;
+}
+
+.novo-transform a {
+font-weight: 600;
+text-decoration: none;
 }
 
 .novo {
@@ -231,4 +248,22 @@ body {
 
 .novo a {
     color: #fff;
+}
+
+.captcha-container {
+    transform: translateY(-125px);
+}
+
+.captcha-transform {
+    transform: translateX(10px);
+}
+
+.captcha-transform p{
+font-size: 12px;
+color: #8b8b8b;
+width: 320px;
+}
+
+.captcha-transform a {
+    text-decoration: none;
 }
