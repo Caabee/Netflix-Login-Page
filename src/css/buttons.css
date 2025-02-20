@@ -1,0 +1,59 @@
+.entratbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    height: 40px;
+    width: 290px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.entratbtn:hover {
+    transform: scale(1.1);
+    box-shadow: rgb(255, 0, 0) 0px 20px 30px -10px;
+    transition: 0.5s ease;
+}
+
+.ou-class {
+    font-weight: 300;
+    font-size: 14px;
+    color: #aaa;
+    transform: translateY(-25px);
+}
+
+.codigo-acesso-container {
+    transform: translateY(-50px);
+}
+
+.codigo-acesso-container .codigo-acesso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.4);
+    color: #fff;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    height: 40px;
+    width: 290px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.codigo-acesso:hover {
+    transform: scale(1.1);
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}

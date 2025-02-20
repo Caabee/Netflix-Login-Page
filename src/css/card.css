@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 420px;
+    height: 703px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.entrar {
+    opacity: 1;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    align-self: flex-start;
+    margin-top: 50px;
+    margin-left: 65px;
+}
+
+.custom-field {
+    position: relative;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+.custom-field input {
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #fff;
+    background-color: rgba(22, 22, 22, 0.4);
+    padding: 12px;
+    border-radius: 3px;
+    width: 285px;
+    height: 50px;
+    outline: none;
+    font-size: 14px;
+    ;
+}
+
+.custom-field .placeholder {
+    position: absolute;
+    left: 12px;
+    top: calc(50% + 10px);
+    transform: translateY(-50%);
+    color: #aaa;
+    transition:
+        top 0.3s ease,
+        font-size 0.3s ease,
+        color 0.3s ease;
+}
+
+.custom-field input:valid+.placeholder,
+.custom-field input:focus+.placeholder {
+
+    top: -1px;
+    font-size: 10px;
+
+}
+
+.custom-field.one input {
+    background: none;
+    border: 1px solid #8b8b8b;
+    transition: border-color 0.3s ease;
+}
+
+.custom-field.one input:valid,
+.custom-field.one input:focus {
+    border-color: #141414;
+    transition-delay: 0.1s;
+}
+
+.custom-field.one input+.placeholder {
+    padding: 0 5px;
+    left: 8px;
+}
+
+.custom-field.one input:valid+.placeholder,
+.custom-field.one input:focus+.placeholder {
+    top: 4px;
+    background: rgba(20, 20, 20, 0.4);
+}
