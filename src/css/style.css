@@ -7,6 +7,27 @@ body {
     color: #fff;
 }
 
+.logo {
+    display: flex;
+    margin-right: 970px;
+    margin-top: 2px;
+}
+
+.logo img {
+    width: 145px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 8px;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -18,18 +39,6 @@ body {
     height: 703px;
     position: relative;
     border-radius: 5px;
-}
-
-
-.container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    border-radius: 8px;
-
 }
 
 .entrar {
@@ -88,7 +97,7 @@ body {
 
 .custom-field.one input {
     background: none;
-    border: 2px solid #8b8b8b;
+    border: 1px solid #8b8b8b;
     transition: border-color 0.3s ease;
 }
 
@@ -128,15 +137,10 @@ body {
     transition: transform 0.3s ease;
 }
 
-.logo {
-    display: flex;
-    margin-right: 970px;
-    margin-top: 2px;
-}
-
-.logo img {
-    width: 145px;
-    height: auto;
+.entratbtn:hover {
+    transform: scale(1.1);
+    box-shadow: rgb(255, 0, 0) 0px 20px 30px -10px;
+    transition: 0.5s ease;
 }
 
 .ou-class {
@@ -167,13 +171,6 @@ body {
     cursor: pointer;
     position: relative;
     transition: 0.3s ease;
-}
-
-
-.entratbtn:hover {
-    transform: scale(1.1);
-    box-shadow: rgb(255, 0, 0) 0px 20px 30px -10px;
-    transition: 0.5s ease;
 }
 
 .codigo-acesso:hover {
